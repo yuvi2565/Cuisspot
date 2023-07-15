@@ -1,0 +1,1741 @@
+@media only screen and (max-width: 374px){
+  header{
+    background-color: rgb(0, 0, 0);
+    height: 120px;
+  }
+  
+  .img-name{
+    height: 0px;
+    width: 0px;
+  }
+
+  .img-logo{
+    margin-left: 10%;
+    height: 75px;
+    width: 75px;
+  }
+
+  .profile-burger {
+    background-color: #000000; /* Green */
+    border: none;
+    padding: 15px 32px;
+    fill: #ff0000;
+    margin-left: 30%;
+    margin-top: 10px;
+}
+
+.profile {
+  visibility: hidden;
+}
+
+.profile {
+  background-color: #000000; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  border: 2px solid #000000;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 1000;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.recipiefront{
+  background-image: linear-gradient(rgba(156, 156, 156, 0.1), rgba(0, 0, 0, 0.5)), url("https://a-static.besthdwallpaper.com/food-photography-chili-and-bell-pepper-falling-into-the-water-in-black-background-wallpaper-2048x1536-60495_26.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  color: #ffffff;
+  align-self: center;
+  margin: 0%;
+}
+
+.recipie-main-h1{
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.recipie-main-h2{
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.recipie-main-h3{
+  font-size: 40px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h4{
+  font-size: 50px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.row1{
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+/* SNACKS */
+.snacks{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("https://as1.ftcdn.net/v2/jpg/03/06/84/90/1000_F_306849019_R6mscFX6zBaphXAvJRZWwLhR9AGjtLbB.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  color: #ffffff;
+  align-self: center;
+  margin: 0%;
+  font-size: 25px;
+  margin: 0%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  padding-left: 20px;
+}
+
+.button-snacks {
+  background-color: transparent; /* Green */
+  color: rgb(255, 255, 255);
+  padding: 7px 15px;
+  border: 1px solid #ffffff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 1000;
+  border-radius: 10px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition: 0.3s;
+}
+
+.button-snacks:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+/* Main Course */
+.main-course{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("https://images.alphacoders.com/862/thumb-1920-862639.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  color: #ffffff;
+  align-self: center;
+  margin: 0%;
+  font-size: 25px;
+  margin: 0%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  padding-left: 20px;}
+
+.button-main {
+  background-color: transparent; /* Green */
+  color: rgb(255, 255, 255);
+  padding: 7px 15px;
+  border: 1px solid #ffffff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 1000;
+  border-radius: 10px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition: 0.3s;
+}
+
+.button-main:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+/* Sweets */
+.sweets{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("https://images.pexels.com/photos/4033917/pexels-photo-4033917.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  color: #ffffff;
+  align-self: center;
+  margin: 0%;
+  font-size: 25px;
+  margin: 0%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  padding-left: 20px;
+}
+
+.button-sweets {
+  background-color: transparent; /* Green */
+  color: rgb(255, 255, 255);
+  padding: 7px 15px;
+  border: 1px solid #ffffff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 1000;
+  border-radius: 10px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition: 0.3s;
+}
+
+.button-sweets:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+/* DRINKS */
+.drinks{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("https://wallpapercave.com/wp/wp2481190.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  color: #ffffff;
+  align-self: center;
+  text-align: right;
+  margin: 0%;
+  font-size: 25px;
+  margin: 0%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  padding-right: 20px;
+}
+
+.button-drinks {
+  background-color: transparent; /* Green */
+  color: rgb(255, 255, 255);
+  padding: 7px 15px;
+  border: 1px solid #ffffff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 1000;
+  border-radius: 10px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition: 0.3s;
+}
+
+.button-drinks:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+}
+
+@media only screen and (min-width: 375px) and (max-width: 424px){
+  header{
+    background-color: rgb(0, 0, 0);
+    height: 120px;
+  }
+  
+  .img-name{
+    height: 0px;
+    width: 0px;
+  }
+
+  .img-logo{
+    margin-left: 10%;
+    height: 75px;
+    width: 75px;
+  }
+
+  .profile-burger {
+    background-color: #000000; /* Green */
+    border: none;
+    padding: 15px 32px;
+    fill: #ff0000;
+}
+
+.profile {
+  visibility: hidden;
+}
+
+.recipiefront{
+  background-image: linear-gradient(rgba(156, 156, 156, 0.1), rgba(0, 0, 0, 0.5)), url("https://a-static.besthdwallpaper.com/food-photography-chili-and-bell-pepper-falling-into-the-water-in-black-background-wallpaper-2048x1536-60495_26.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  color: #ffffff;
+  align-self: center;
+  margin: 0%;
+}
+
+.recipie-main-h1{
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.recipie-main-h2{
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.recipie-main-h3{
+  font-size: 50px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.row1{
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+/* SNACKS */
+.snacks{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("https://as1.ftcdn.net/v2/jpg/03/06/84/90/1000_F_306849019_R6mscFX6zBaphXAvJRZWwLhR9AGjtLbB.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  color: #ffffff;
+  align-self: center;
+  margin: 0%;
+  font-size: 30px;
+  margin: 0%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  padding-left: 20px;
+}
+
+.button-snacks {
+  background-color: transparent; /* Green */
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: 1px solid #ffffff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 1000;
+  border-radius: 10px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition: 0.3s;
+}
+
+.button-snacks:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+/* Main Course */
+.main-course{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("https://images.alphacoders.com/862/thumb-1920-862639.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  color: #ffffff;
+  align-self: center;
+  margin: 0%;
+  font-size: 30px;
+  margin: 0%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  padding-left: 20px;
+}
+
+.button-main {
+  background-color: transparent; /* Green */
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: 1px solid #ffffff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 1000;
+  border-radius: 10px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition: 0.3s;
+}
+
+.button-main:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+/* Sweets */
+.sweets{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("https://images.pexels.com/photos/4033917/pexels-photo-4033917.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  color: #ffffff;
+  align-self: center;
+  margin: 0%;
+  font-size: 30px;
+  margin: 0%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  padding-left: 20px;
+}
+
+.button-sweets {
+  background-color: transparent; /* Green */
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: 1px solid #ffffff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 1000;
+  border-radius: 10px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition: 0.3s;
+}
+
+.button-sweets:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+/* DRINKS */
+.drinks{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("https://wallpapercave.com/wp/wp2481190.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  color: #ffffff;
+  align-self: center;
+  margin: 0%;
+  font-size: 30px;
+  margin: 0%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  padding-left: 20px;
+}
+
+.button-drinks {
+  background-color: transparent; /* Green */
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: 1px solid #ffffff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 1000;
+  border-radius: 10px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition: 0.3s;
+}
+
+.button-drinks:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+}
+
+@media only screen and (min-width: 425px) and (max-width: 574px){
+  header{
+    background-color: rgb(0, 0, 0);
+    height: 120px;
+  }
+  
+  .img-name{
+    height: 0px;
+    width: 0px;
+  }
+
+  .img-logo{
+    margin-left: 10%;
+    height: 75px;
+    width: 75px;
+  }
+
+  .profile-burger {
+    background-color: #000000; /* Green */
+    border: none;
+    padding: 15px 32px;
+    fill: #ff0000;
+    margin-left: 18%;
+    size: 100px;
+    margin-top: 30px;
+}
+
+.profile {
+  visibility: hidden;
+}
+
+.recipiefront{
+  background-image: linear-gradient(rgba(156, 156, 156, 0.1), rgba(0, 0, 0, 0.5)), url("https://a-static.besthdwallpaper.com/food-photography-chili-and-bell-pepper-falling-into-the-water-in-black-background-wallpaper-2048x1536-60495_26.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  color: #ffffff;
+  align-self: center;
+  margin: 0%;
+}
+
+.recipie-main-h1{
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.recipie-main-h2{
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.recipie-main-h3{
+  font-size: 50px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.row1{
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+/* SNACKS */
+.snacks{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("https://as1.ftcdn.net/v2/jpg/03/06/84/90/1000_F_306849019_R6mscFX6zBaphXAvJRZWwLhR9AGjtLbB.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  color: #ffffff;
+  align-self: center;
+  margin: 0%;
+  font-size: 35px;
+  margin: 0%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  padding-left: 20px;
+}
+
+.button-snacks {
+  background-color: transparent; /* Green */
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: 1px solid #ffffff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  font-weight: 1000;
+  border-radius: 10px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition: 0.3s;
+}
+
+.button-snacks:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+/* Main Course */
+.main-course{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("https://images.alphacoders.com/862/thumb-1920-862639.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  color: #ffffff;
+  align-self: center;
+  margin: 0%;
+  font-size: 35px;
+  margin: 0%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  padding-left: 20px;
+}
+
+.button-main {
+  background-color: transparent; /* Green */
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: 1px solid #ffffff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  font-weight: 1000;
+  border-radius: 10px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition: 0.3s;
+}
+
+.button-main:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+/* Sweets */
+.sweets{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("https://images.pexels.com/photos/4033917/pexels-photo-4033917.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  color: #ffffff;
+  align-self: center;
+  margin: 0%;
+  font-size: 35px;
+  margin: 0%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  padding-left: 20px;
+}
+
+.button-sweets {
+  background-color: transparent; /* Green */
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: 1px solid #ffffff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  font-weight: 1000;
+  border-radius: 10px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition: 0.3s;
+}
+
+.button-sweets:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+/* DRINKS */
+.drinks{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("https://wallpapercave.com/wp/wp2481190.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  color: #ffffff;
+  align-self: center;
+  margin: 0%;
+  font-size: 35px;
+  margin: 0%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  padding-left: 20px;
+}
+
+.button-drinks {
+  background-color: transparent; /* Green */
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: 1px solid #ffffff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  font-weight: 1000;
+  border-radius: 10px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition: 0.3s;
+}
+
+.button-drinks:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+}
+
+@media only screen and (min-width: 575px) and (max-width: 674px){
+  header{
+    background-color: rgb(0, 0, 0);
+    height: 120px;
+  }
+  
+  .img-name{
+    height: 0px;
+    width: 0px;
+  }
+
+  .img-logo{
+    margin-left: 10%;
+    height: 75px;
+    width: 75px;
+  }
+
+  .profile-burger {
+    background-color: #000000; /* Green */
+    border: none;
+    padding: 15px 32px;
+    fill: #ff0000;
+    margin-left: 18%;
+    size: 100px;
+    margin-top: 30px;
+}
+
+.profile {
+  visibility: hidden;
+}
+
+.recipiefront{
+  background-image: linear-gradient(rgba(156, 156, 156, 0.1), rgba(0, 0, 0, 0.5)), url("https://a-static.besthdwallpaper.com/food-photography-chili-and-bell-pepper-falling-into-the-water-in-black-background-wallpaper-2048x1536-60495_26.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  color: #ffffff;
+  align-self: center;
+  margin: 0%;
+}
+
+.recipie-main-h1{
+  font-size: 55px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.recipie-main-h2{
+  font-size: 55px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.recipie-main-h3{
+  font-size: 55px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.row1{
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+/* SNACKS */
+.snacks{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("https://as1.ftcdn.net/v2/jpg/03/06/84/90/1000_F_306849019_R6mscFX6zBaphXAvJRZWwLhR9AGjtLbB.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  color: #ffffff;
+  align-self: center;
+  margin: 0%;
+  font-size: 40px;
+  margin: 0%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  padding-left: 20px;
+}
+
+.button-snacks {
+  background-color: transparent; /* Green */
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: 1px solid #ffffff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 1000;
+  border-radius: 10px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition: 0.3s;
+}
+
+.button-snacks:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+/* Main Course */
+.main-course{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("https://images.alphacoders.com/862/thumb-1920-862639.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  color: #ffffff;
+  align-self: center;
+  margin: 0%;
+  font-size: 40px;
+  margin: 0%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  padding-left: 20px;
+}
+
+.button-main {
+  background-color: transparent; /* Green */
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: 1px solid #ffffff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 1000;
+  border-radius: 10px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition: 0.3s;
+}
+
+.button-main:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+/* Sweets */
+.sweets{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("https://images.pexels.com/photos/4033917/pexels-photo-4033917.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  color: #ffffff;
+  align-self: center;
+  margin: 0%;
+  font-size: 40px;
+  margin: 0%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  padding-left: 20px;
+}
+
+.button-sweets {
+  background-color: transparent; /* Green */
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: 1px solid #ffffff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 1000;
+  border-radius: 10px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition: 0.3s;
+}
+
+.button-sweets:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+/* DRINKS */
+.drinks{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("https://wallpapercave.com/wp/wp2481190.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  color: #ffffff;
+  align-self: center;
+  margin: 0%;
+  font-size: 40px;
+  margin: 0%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  padding-left: 20px;
+}
+
+.button-drinks {
+  background-color: transparent; /* Green */
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: 1px solid #ffffff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 1000;
+  border-radius: 10px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition: 0.3s;
+}
+
+.button-drinks:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+}
+
+@media only screen and (min-width: 675px) and (max-width: 749px){
+  header{
+    background-color: rgb(0, 0, 0);
+    height: 120px;
+  }
+  
+  .img-name{
+    height: 0px;
+    width: 0px;
+  }
+
+  .img-logo{
+    margin-left: 10%;
+    height: 75px;
+    width: 75px;
+  }
+
+  .profile-burger {
+    background-color: #000000; /* Green */
+    border: none;
+    padding: 15px 32px;
+    fill: #ff0000;
+    margin-left: 18%;
+    size: 100px;
+    margin-top: 30px;
+}
+
+.profile {
+  visibility: hidden;
+}
+
+.recipiefront{
+  background-image: linear-gradient(rgba(156, 156, 156, 0.1), rgba(0, 0, 0, 0.5)), url("https://a-static.besthdwallpaper.com/food-photography-chili-and-bell-pepper-falling-into-the-water-in-black-background-wallpaper-2048x1536-60495_26.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  color: #ffffff;
+  align-self: center;
+  margin: 0%;
+}
+
+.recipie-main-h1{
+  font-size: 70px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.recipie-main-h2{
+  font-size: 70px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.recipie-main-h3{
+  font-size: 70px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.row1{
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+/* SNACKS */
+.snacks{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("https://as1.ftcdn.net/v2/jpg/03/06/84/90/1000_F_306849019_R6mscFX6zBaphXAvJRZWwLhR9AGjtLbB.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  color: #ffffff;
+  align-self: center;
+  margin: 0%;
+  font-size: 45px;
+  margin: 0%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  padding-left: 20px;
+}
+
+.button-snacks {
+  background-color: transparent; /* Green */
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: 1px solid #ffffff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 1000;
+  border-radius: 10px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition: 0.3s;
+}
+
+.button-snacks:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+/* Main Course */
+.main-course{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("https://images.alphacoders.com/862/thumb-1920-862639.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  color: #ffffff;
+  align-self: center;
+  margin: 0%;
+  font-size: 45px;
+  margin: 0%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  padding-left: 20px;
+}
+
+.button-main {
+  background-color: transparent; /* Green */
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: 1px solid #ffffff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 1000;
+  border-radius: 10px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition: 0.3s;
+}
+
+.button-main:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+/* Sweets */
+.sweets{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("https://images.pexels.com/photos/4033917/pexels-photo-4033917.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  color: #ffffff;
+  align-self: center;
+  margin: 0%;
+  font-size: 45px;
+  margin: 0%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  padding-left: 20px;
+}
+
+.button-sweets {
+  background-color: transparent; /* Green */
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: 1px solid #ffffff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 1000;
+  border-radius: 10px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition: 0.3s;
+}
+
+.button-sweets:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+/* DRINKS */
+.drinks{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("https://wallpapercave.com/wp/wp2481190.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  color: #ffffff;
+  align-self: center;
+  margin: 0%;
+  font-size: 45px;
+  margin: 0%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  padding-left: 20px;
+}
+
+.button-drinks {
+  background-color: transparent; /* Green */
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: 1px solid #ffffff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 1000;
+  border-radius: 10px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition: 0.3s;
+}
+
+.button-drinks:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+}
+
+@media only screen and (min-width: 750px) and (max-width: 1000px){
+  header{
+    background-color: rgb(0, 0, 0);
+    height: 120px;
+  }
+  
+  .img-name{
+    height: 75px;
+    width: 250px;
+  }
+
+  .img-logo{
+    margin-left: 10%;
+    height: 75px;
+    width: 75px;
+  }
+
+  .profile-burger{
+    display: none;
+    height: 0px;
+    width: 0px;
+  }
+
+.profile{
+  background-color: black; /* Green */
+  color: white;
+  padding: 15px 32px;
+  border: 2px solid #ffffff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 1000;
+  border-radius: 10px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  transition: 0.3s;
+  margin-right: 10px;
+}
+
+.profile:hover{
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.recipiefront{
+  background-image: linear-gradient(rgba(156, 156, 156, 0.1), rgba(0, 0, 0, 0.5)), url("https://a-static.besthdwallpaper.com/food-photography-chili-and-bell-pepper-falling-into-the-water-in-black-background-wallpaper-2048x1536-60495_26.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  color: #ffffff;
+  align-self: center;
+  margin: 0%;
+}
+
+.recipie-main-h1{
+  font-size: 90px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.recipie-main-h2{
+  font-size: 90px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.recipie-main-h3{
+  font-size: 90px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.row1{
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+/* SNACKS */
+.snacks{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("https://as1.ftcdn.net/v2/jpg/03/06/84/90/1000_F_306849019_R6mscFX6zBaphXAvJRZWwLhR9AGjtLbB.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  color: #ffffff;
+  align-self: center;
+  margin: 0%;
+  font-size: 50px;
+  margin: 0%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  padding-left: 20px;
+}
+
+.button-snacks {
+  background-color: transparent; /* Green */
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: 1px solid #ffffff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 35px;
+  font-weight: 1000;
+  border-radius: 10px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition: 0.3s;
+}
+
+.button-snacks:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+/* Main Course */
+.main-course{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("https://images.alphacoders.com/862/thumb-1920-862639.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  color: #ffffff;
+  align-self: center;
+  margin: 0%;
+  font-size: 50px;
+  margin: 0%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  padding-left: 20px;
+}
+
+.button-main {
+  background-color: transparent; /* Green */
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: 1px solid #ffffff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 35px;
+  font-weight: 1000;
+  border-radius: 10px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition: 0.3s;
+}
+
+.button-main:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+/* Sweets */
+.sweets{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("https://images.pexels.com/photos/4033917/pexels-photo-4033917.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  color: #ffffff;
+  align-self: center;
+  margin: 0%;
+  font-size: 50px;
+  margin: 0%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  padding-left: 20px;
+}
+
+.button-sweets {
+  background-color: transparent; /* Green */
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: 1px solid #ffffff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 35px;
+  font-weight: 1000;
+  border-radius: 10px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition: 0.3s;
+}
+
+.button-sweets:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+/* DRINKS */
+.drinks{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("https://wallpapercave.com/wp/wp2481190.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  color: #ffffff;
+  align-self: center;
+  margin: 0%;
+  font-size: 50px;
+  margin: 0%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  padding-left: 20px;
+}
+
+.button-drinks {
+  background-color: transparent; /* Green */
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: 1px solid #ffffff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 35px;
+  font-weight: 1000;
+  border-radius: 10px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition: 0.3s;
+}
+
+.button-drinks:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1534px){
+  header{
+    background-color: rgb(0, 0, 0);
+    height: 120px;
+  }
+  
+  .img-name{
+    height: 75px;
+    width: 400px;
+  }
+
+  .img-logo{
+    margin-left: 10%;
+    height: 75px;
+    width: 75px;
+  }
+
+  .profile-burger{
+    display: none;
+    height: 0px;
+    width: 0px;
+  }
+
+.profile{
+  background-color: black; /* Green */
+  color: white;
+  padding: 15px 32px;
+  border: 2px solid #ffffff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 1000;
+  border-radius: 10px;
+  font-family: 'Saira', sans-serif;
+  transition: 0.3s;
+  margin-right: 10px;
+}
+
+.profile:hover{
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.recipiefront{
+  background-image: linear-gradient(rgb(0, 0, 1), rgba(0, 0, 0, 0)), url("https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  color: #ffffff;
+  align-self: center;
+  margin: 0%;
+}
+
+.recipie-main-h1{
+  font-size: 140px;
+  font-family: 'Staatliches', cursive;
+}
+
+.recipie-main-h2{
+  font-size: 140px;
+  font-family: 'Staatliches', cursive;
+}
+
+.recipie-main-h3{
+  font-size: 140px;
+  font-family: 'Staatliches', cursive;
+}
+
+
+.row1{
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+/* SNACKS */
+.snacks{
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("https://images.pexels.com/photos/5946428/pexels-photo-5946428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  color: #ffffff;
+  align-self: center;
+  margin: 0%;
+  font-size: 80px;
+  margin: 0%;
+  font-family: 'Staatliches', cursive;
+  padding-left: 20px;
+}
+
+.button-snacks {
+  background-color: transparent; /* Green */
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: 1px solid #ffffff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 35px;
+  font-weight: 1000;
+  border-radius: 10px;
+  font-family: 'Saira', sans-serif;
+  transition: 0.3s;
+}
+
+.button-snacks:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+/* Main Course */
+.main-course{
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(255, 255, 255, 0)), url("https://images.pexels.com/photos/2098143/pexels-photo-2098143.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  color: #ffffff;
+  align-self: center;
+  margin: 0%;
+  font-size: 80px;
+  margin: 0%;
+  font-family: 'Staatliches', cursive;
+  padding-left: 20px;
+}
+
+.button-main {
+  background-color: transparent; /* Green */
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: 1px solid #ffffff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 35px;
+  font-weight: 1000;
+  border-radius: 10px;
+  font-family: 'Saira', sans-serif;
+  transition: 0.3s;
+}
+
+.button-main:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+/* Sweets */
+.sweets{
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("https://images.pexels.com/photos/7440362/pexels-photo-7440362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  color: #ffffff;
+  align-self: center;
+  margin: 0%;
+  font-size: 75px;
+  margin: 0%;
+  font-family: 'Staatliches', cursive;
+  padding-left: 20px;
+}
+
+.button-sweets {
+  background-color: transparent; /* Green */
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: 1px solid #ffffff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 35px;
+  font-weight: 1000;
+  border-radius: 10px;
+  font-family: 'Saira', sans-serif;
+  transition: 0.3s;
+}
+
+.button-sweets:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+/* DRINKS */
+.drinks{
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("https://images.pexels.com/photos/7845215/pexels-photo-7845215.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  color: #ffffff;
+  align-self: center;
+  margin: 0%;
+  font-size: 75px;
+  margin: 0%;
+  font-family: 'Staatliches', cursive;
+  padding-left: 20px;
+}
+
+.button-drinks {
+  background-color: transparent; /* Green */
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: 1px solid #ffffff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 35px;
+  font-weight: 1000;
+  border-radius: 10px;
+  font-family: 'Saira', sans-serif;
+  transition: 0.3s;
+}
+
+.button-drinks:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+}
+
+@media only screen and (min-width: 1535px) and (max-width: 2000px){
+  header{
+    background-color: rgb(0, 0, 0);
+    height: 120px;
+  }
+  
+  .img-name{
+    height: 75px;
+    width: 250px;
+  }
+
+  .img-logo{
+    margin-left: 10%;
+    height: 75px;
+    width: 75px;
+  }
+
+  .profile-burger{
+    display: none;
+    height: 0px;
+    width: 0px;
+  }
+
+.profile{
+  background-color: black; /* Green */
+  color: white;
+  padding: 15px 32px;
+  border: 2px solid #ffffff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 1000;
+  border-radius: 10px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  transition: 0.3s;
+  margin-right: 10px;
+}
+
+.profile:hover{
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.recipiefront{
+  background-image: linear-gradient(rgba(156, 156, 156, 0.1), rgba(0, 0, 0, 0.5)), url("https://a-static.besthdwallpaper.com/food-photography-chili-and-bell-pepper-falling-into-the-water-in-black-background-wallpaper-2048x1536-60495_26.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  color: #ffffff;
+  align-self: center;
+  margin: 0%;
+}
+
+.recipie-main-h1{
+  font-size: 225px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.recipie-main-h2{
+  font-size: 225px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.recipie-main-h3{
+  font-size: 225px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.row1{
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+/* SNACKS */
+.snacks{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("https://as1.ftcdn.net/v2/jpg/03/06/84/90/1000_F_306849019_R6mscFX6zBaphXAvJRZWwLhR9AGjtLbB.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  color: #ffffff;
+  align-self: center;
+  margin: 0%;
+  font-size: 100px;
+  margin: 0%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  padding-left: 20px;
+}
+
+.button-snacks {
+  background-color: transparent; /* Green */
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: 1px solid #ffffff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 75px;
+  font-weight: 1000;
+  border-radius: 10px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition: 0.3s;
+}
+
+.button-snacks:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+/* Main Course */
+.main-course{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("https://images.alphacoders.com/862/thumb-1920-862639.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  color: #ffffff;
+  align-self: center;
+  margin: 0%;
+  font-size: 100px;
+  margin: 0%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  padding-left: 20px;
+}
+
+.button-main {
+  background-color: transparent; /* Green */
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: 1px solid #ffffff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 75px;
+  font-weight: 1000;
+  border-radius: 10px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition: 0.3s;
+}
+
+.button-main:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+/* Sweets */
+.sweets{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("https://images.pexels.com/photos/4033917/pexels-photo-4033917.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  color: #ffffff;
+  align-self: center;
+  margin: 0%;
+  font-size: 100px;
+  margin: 0%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  padding-left: 20px;
+}
+
+.button-sweets {
+  background-color: transparent; /* Green */
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: 1px solid #ffffff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 75px;
+  font-weight: 1000;
+  border-radius: 10px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition: 0.3s;
+}
+
+.button-sweets:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+/* DRINKS */
+.drinks{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("https://wallpapercave.com/wp/wp2481190.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  color: #ffffff;
+  align-self: center;
+  margin: 0%;
+  font-size: 100px;
+  margin: 0%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  padding-left: 20px;
+}
+
+.button-drinks {
+  background-color: transparent; /* Green */
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: 1px solid #ffffff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 75px;
+  font-weight: 1000;
+  border-radius: 10px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition: 0.3s;
+}
+
+.button-drinks:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+}
+
+/* CURTAIN MENU*/
+/* The Overlay (background) */
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.9); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.6s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+  }
+  
+  /* Position the content inside the overlay */
+  .overlay-content {
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  }
+  
+  /* The navigation links inside the overlay */
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #ffffff;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .overlay a:hover, .overlay a:focus {
+    color: #ff0000;
+  }
+  
+  /* Position the close button (top right corner) */
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+}

@@ -1,0 +1,2058 @@
+@media only screen and (max-width: 374px){
+  header{
+    background-color: rgb(0, 0, 0);
+    height: 120px;
+  }
+  
+  .img-name{
+    height: 0px;
+    width: 0px;
+  }
+
+  .img-logo{
+    margin-left: 10%;
+    height: 75px;
+    width: 75px;
+  }
+
+  .profile-burger {
+    background-color: #000000; /* Green */
+    border: none;
+    padding: 15px 32px;
+    fill: #ff0000;
+    margin-top: -100px;
+}
+
+.profile {
+  visibility: hidden;
+}
+
+
+.ABOUTUS{
+  font-size: 80px;
+  line-height: 80px;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: url(https://images.pexels.com/photos/2771926/pexels-photo-2771926.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) 0 0 / cover no-repeat;
+  color: #000000;
+  -webkit-background-clip: text;
+  font-family: 'Staatliches', cursive;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.map{
+  width: 200px;
+  height: 200px;
+  align-self: center;
+}
+
+.whovr{
+background-color: #000000;
+}
+
+.whovr-content{
+padding-left: 20px;
+font-size: 15px;
+font-family: 'Saira', sans-serif;
+width: 75%;
+color: #ffffff;
+}
+
+.whovr-content-h1{
+font-size: 30px;
+font-weight: 300;
+font-family: 'Staatliches', cursive;
+color: #ff4343;
+}
+
+.neon-logo{
+  width: 150px;
+  height: 150px;
+}
+
+.MEET-DA-TEAM{
+font-size: 100px;
+line-height: 80px;
+font-weight: 900;
+text-transform: uppercase;
+background: url(https://images.pexels.com/photos/942801/pexels-photo-942801.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) 0 0 / cover no-repeat;
+color: #000000;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: 'Staatliches', cursive;
+}
+
+
+/* Add some shadows to create a card effect */
+.card {
+border: 1px solid white;
+background-color: rgb(10, 10, 10);
+color: white;
+font-family: 'Saira', sans-serif;
+}
+
+/* Some left and right padding inside the container */
+.container {
+padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+content: "";
+clear: both;
+display: table;
+}
+
+.title {
+color: rgb(255, 0, 0);
+font-weight: 800;
+font-family: 'Staatliches', cursive;
+}
+
+.button {
+border: none;
+border-radius: 10px;
+outline: 0;
+display: inline-block;
+padding: 8px;
+color: white;
+background-color: rgb(255, 0, 0);
+text-align: center;
+cursor: pointer;
+font-family: 'Staatliches', cursive;
+width: 100%;
+}
+
+.button:hover {
+background-color: rgb(255, 117, 117);
+}
+
+.row{
+background-color: #000;
+width: 100%;
+margin-left: 0px;
+}
+
+/*----------Hover Effects For meet the team---------*/
+.image {
+opacity: 1;
+display: block;
+width: 100%;
+height: auto;
+transition: .5s ease;
+backface-visibility: hidden;
+}
+.middle {
+transition: .5s ease;
+opacity: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+text-align: center;
+}
+.text {
+background-color: rgb(255, 0, 0);
+color: white;
+font-size: 16px;
+padding: 16px 32px;
+}
+
+.container:hover .image {
+opacity: 0.3;
+}
+
+.container:hover .middle {
+opacity: 1;
+}
+h1{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 1000;
+}
+.bg-text{
+  height: 300px;
+}
+
+/* Three columns side by side , Meet the team*/
+.column {
+float: left;
+width: 25%;
+margin-bottom: 16px;
+padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+.column {
+  width: 100%;
+  display: block;
+}
+}
+
+.CONTACT{
+font-size: 60px;
+line-height: 70px;
+font-weight: 900;
+text-transform: uppercase;
+background: url(https://images.pexels.com/photos/4275993/pexels-photo-4275993.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) 0 0 / cover no-repeat;
+color: #000000;
+-webkit-background-clip: text;
+font-family: 'Staatliches', cursive;
+-webkit-text-fill-color: transparent;
+}
+
+.locate{
+background-color: #000;
+}
+
+.contct-h1{
+color: #ff4343;
+font-size: 30px;
+font-family: 'Staatliches', cursive;
+font-weight: 100;
+}
+
+.contact-us{
+margin-left: 50px;
+}
+
+.contct-p{
+color: #ffffff;
+font-size: 10px;
+font-family: 'Saira', sans-serif;
+}
+
+/* for footer */
+.footer-row{
+display: flex;
+flex-wrap: wrap;
+}
+.footer-list{
+list-style: none;  /*removes dots in fornt of lists */
+}
+.footer-container{
+max-width: 1200px;
+margin: auto;
+color: rgb(236, 234, 233);
+}
+.footer{
+padding: 80px;
+background-color: rgb(49, 49, 49);
+}
+*{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+.footer-col{
+width: 25%;   
+padding: 0 15px;
+}
+.footer-col ul li a{
+font-size: 16px;
+text-transform: capitalize;
+color: white;
+}
+
+.a-links{
+color: #ff0000;
+}
+
+.a-links:hover{
+color: rgb(255, 51, 51);
+}
+
+}
+
+@media only screen and (min-width: 375px) and (max-width: 424px){
+  header{
+    background-color: rgb(0, 0, 0);
+    height: 120px;
+  }
+  
+  .img-name{
+    height: 0px;
+    width: 0px;
+  }
+
+  .img-logo{
+    margin-left: 10%;
+    height: 75px;
+    width: 75px;
+  }
+
+  .profile-burger {
+    background-color: #000000; /* Green */
+    border: none;
+    padding: 15px 32px;
+    fill: #ff0000;
+}
+
+.profile {
+  visibility: hidden;
+}
+
+.ABOUTUS{
+  font-size: 100px;
+  line-height: 80px;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: url(https://images.pexels.com/photos/2771926/pexels-photo-2771926.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) 0 0 / cover no-repeat;
+  color: #000000;
+  font-family: 'Staatliches', cursive;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.map{
+  width: 250px;
+  height: 250px;
+  align-self: center;
+}
+
+.whovr{
+background-color: #000000;
+}
+
+.whovr-content{
+padding-left: 20px;
+font-size: 10px;
+width: 75%;
+font-family: 'Saira', sans-serif;
+color: #ffffff;
+}
+
+.whovr-content-h1{
+font-size: 35px;
+font-family: 'Staatliches', cursive;
+color: #ff4343;
+}
+
+.neon-logo{
+  width: 150px;
+  height: 150px;
+}
+
+.MEET-DA-TEAM{
+font-size: 100px;
+line-height: 80px;
+font-weight: 900;
+text-transform: uppercase;
+background: url(https://images.pexels.com/photos/942801/pexels-photo-942801.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) 0 0 / cover no-repeat;
+color: #000000;
+-webkit-background-clip: text;
+font-family: 'Staatliches', cursive;
+-webkit-text-fill-color: transparent;
+}
+
+
+/* Add some shadows to create a card effect */
+.card {
+border: 1px solid white;
+background-color: rgb(10, 10, 10);
+color: white;
+font-family: 'Saira', sans-serif;
+}
+
+/* Some left and right padding inside the container */
+.container {
+padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+content: "";
+clear: both;
+display: table;
+}
+
+.title {
+color: rgb(255, 0, 0);
+font-weight: 800;
+font-family: 'Staatliches', cursive;
+}
+
+.button {
+border: none;
+border-radius: 10px;
+outline: 0;
+display: inline-block;
+font-family: 'Staatliches', cursive;
+padding: 8px;
+color: white;
+background-color: rgb(255, 0, 0);
+text-align: center;
+cursor: pointer;
+width: 100%;
+}
+
+.button:hover {
+background-color: rgb(255, 117, 117);
+}
+
+.row{
+background-color: #000;
+width: 100%;
+margin-left: 0px;
+}
+
+/*----------Hover Effects For meet the team---------*/
+.image {
+opacity: 1;
+display: block;
+width: 100%;
+height: auto;
+transition: .5s ease;
+backface-visibility: hidden;
+}
+.middle {
+transition: .5s ease;
+opacity: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+text-align: center;
+}
+.text {
+background-color: rgb(255, 0, 0);
+color: white;
+font-size: 16px;
+padding: 16px 32px;
+}
+
+.container:hover .image {
+opacity: 0.3;
+}
+
+.container:hover .middle {
+opacity: 1;
+}
+h1{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 1000;
+}
+.bg-text{
+  height: 300px;
+}
+
+/* Three columns side by side , Meet the team*/
+.column {
+float: left;
+width: 25%;
+margin-bottom: 16px;
+padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+.column {
+  width: 100%;
+  display: block;
+}
+}
+
+.CONTACT{
+font-size: 70px;
+line-height: 70px;
+font-weight: 900;
+text-transform: uppercase;
+background: url(https://images.pexels.com/photos/4275993/pexels-photo-4275993.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) 0 0 / cover no-repeat;
+color: #000000;
+font-family: 'Staatliches', cursive;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.locate{
+background-color: #000;
+}
+
+.contct-h1{
+color: #ff4343;
+font-size: 30px;
+font-family: 'Staatliches', cursive;
+font-weight: 100;
+}
+
+.contact-us{
+margin-left: 15px;
+}
+
+.contct-p{
+color: #ffffff;
+font-family: 'Saira', sans-serif;
+font-size: 20px;
+}
+}
+
+@media only screen and (min-width: 425px) and (max-width: 574px){
+  header{
+    background-color: rgb(0, 0, 0);
+    height: 120px;
+  }
+  
+  .img-name{
+    height: 0px;
+    width: 0px;
+  }
+
+  .img-logo{
+    margin-left: 10%;
+    height: 75px;
+    width: 75px;
+  }
+
+  .profile-burger {
+    background-color: #000000; /* Green */
+    border: none;
+    padding: 15px 32px;
+    fill: #ff0000;
+    margin-left: 10%;
+    size: 100px;
+    margin-top: 30px;
+}
+
+.profile {
+  visibility: hidden;
+}
+
+.ABOUTUS{
+  font-size: 120px;
+  line-height: 100px;
+  font-family: 'Staatliches', cursive;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: url(https://images.pexels.com/photos/2771926/pexels-photo-2771926.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) 0 0 / cover no-repeat;
+  color: #000000;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.map{
+  width: 375px;
+  height: 375px;
+  align-self: center;
+}
+
+.whovr{
+background-color: #000000;
+}
+
+.whovr-content{
+padding-left: 20px;
+font-size: 19px;
+width: 75%;
+font-family: 'Saira', sans-serif;
+color: #ffffff;
+}
+
+.whovr-content-h1{
+font-size: 70px;
+font-family: 'Staatliches', cursive;
+color: #ff4343;
+}
+
+.neon-logo{
+  width: 200px;
+  height: 200px;
+}
+
+.MEET-DA-TEAM{
+font-size: 120px;
+line-height: 100px;
+font-weight: 900;
+text-transform: uppercase;
+background: url(https://images.pexels.com/photos/942801/pexels-photo-942801.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) 0 0 / cover no-repeat;
+color: #000000;
+font-family: 'Staatliches', cursive;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+/* Add some shadows to create a card effect */
+.card {
+border: 1px solid white;
+background-color: rgb(10, 10, 10);
+color: white;
+font-family: 'Saira', sans-serif;
+}
+
+/* Some left and right padding inside the container */
+.container {
+padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+content: "";
+clear: both;
+display: table;
+}
+
+.title {
+color: rgb(255, 0, 0);
+font-family: 'Staatliches', cursive;
+font-weight: 800
+}
+
+.button {
+border: none;
+border-radius: 10px;
+outline: 0;
+display: inline-block;
+padding: 8px;
+color: white;
+background-color: rgb(255, 0, 0);
+text-align: center;
+font-family: 'Staatliches', cursive;
+cursor: pointer;
+width: 100%;
+}
+
+.button:hover {
+background-color: rgb(255, 117, 117);
+}
+
+.row{
+background-color: #000;
+width: 100%;
+margin-left: 0px;
+}
+
+/*----------Hover Effects For meet the team---------*/
+.image {
+opacity: 1;
+display: block;
+width: 100%;
+height: auto;
+transition: .5s ease;
+backface-visibility: hidden;
+}
+.middle {
+transition: .5s ease;
+opacity: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+text-align: center;
+}
+.text {
+background-color: rgb(255, 0, 0);
+color: white;
+font-size: 16px;
+padding: 16px 32px;
+}
+
+.container:hover .image {
+opacity: 0.3;
+}
+
+.container:hover .middle {
+opacity: 1;
+}
+h1{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 1000;
+}
+.bg-text{
+  height: 300px;
+}
+
+/* Three columns side by side , Meet the team*/
+.column {
+float: left;
+width: 25%;
+margin-bottom: 16px;
+padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+.column {
+  width: 100%;
+  display: block;
+}
+}
+
+.CONTACT{
+font-size: 80px;
+line-height: 80px;
+font-weight: 900;
+text-transform: uppercase;
+background: url(https://images.pexels.com/photos/4275993/pexels-photo-4275993.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) 0 0 / cover no-repeat;
+color: #000000;
+-webkit-background-clip: text;
+font-family: 'Staatliches', cursive;
+-webkit-text-fill-color: transparent;
+}
+
+.locate{
+background-color: #000;
+}
+
+.contct-h1{
+color: #ff4343;
+font-family: 'Staatliches', cursive;
+font-size: 50px;
+font-weight: 100;
+}
+
+.contact-us{
+margin-left: 50px;
+}
+
+.contct-p{
+color: #ffffff;
+font-family: 'Saira', sans-serif;
+font-size: 20px;
+}
+}
+
+@media only screen and (min-width: 575px) and (max-width: 650px){
+  header{
+    background-color: rgb(0, 0, 0);
+    height: 120px;
+  }
+  
+  .img-name{
+    height: 0px;
+    width: 0px;
+  }
+
+  .img-logo{
+    margin-left: 10%;
+    height: 75px;
+    width: 75px;
+  }
+
+  .profile-burger {
+    background-color: #000000; /* Green */
+    border: none;
+    padding: 15px 32px;
+    fill: #ff0000;
+    margin-left: 20%;
+    size: 100px;
+    margin-top: 30px;
+}
+
+.profile {
+  visibility: hidden;
+}
+
+.ABOUTUS{
+  font-size: 120px;
+  line-height: 100px;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: url(https://images.pexels.com/photos/2771926/pexels-photo-2771926.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) 0 0 / cover no-repeat;
+  color: #000000;
+  font-family: 'Staatliches', cursive;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.map{
+  width: 350px;
+  height: 350px;
+  align-self: center;
+}
+
+.whovr{
+background-color: #000000;
+}
+
+.whovr-content{
+padding-left: 20px;
+font-size: 20px;
+font-family: 'Saira', sans-serif;
+width: 75%;
+color: #ffffff;
+}
+
+.whovr-content-h1{
+font-size: 50px;
+font-family: 'Staatliches', cursive;
+color: #ff4343;
+}
+
+.neon-logo{
+  width: 200px;
+  height: 200px;
+}
+
+.MEET-DA-TEAM{
+font-size: 120px;
+line-height: 100px;
+font-weight: 900;
+text-transform: uppercase;
+background: url(https://images.pexels.com/photos/942801/pexels-photo-942801.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) 0 0 / cover no-repeat;
+color: #000000;
+font-family: 'Staatliches', cursive;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+/* Add some shadows to create a card effect */
+.card {
+border: 1px solid white;
+background-color: rgb(10, 10, 10);
+font-family: 'Saira', sans-serif;
+color: white;
+}
+
+/* Some left and right padding inside the container */
+.container {
+padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+content: "";
+clear: both;
+display: table;
+}
+
+.title {
+color: rgb(255, 0, 0);
+font-weight: 800;
+font-family: 'Staatliches', cursive;
+}
+
+.button {
+border: none;
+border-radius: 10px;
+outline: 0;
+display: inline-block;
+padding: 8px;
+color: white;
+background-color: rgb(255, 0, 0);
+text-align: center;
+font-family: 'Staatliches', cursive;
+cursor: pointer;
+width: 100%;
+}
+
+.button:hover {
+background-color: rgb(255, 117, 117);
+}
+
+.row{
+background-color: #000;
+width: 100%;
+margin-left: 0px;
+}
+
+/*----------Hover Effects For meet the team---------*/
+.image {
+opacity: 1;
+display: block;
+width: 100%;
+height: auto;
+transition: .5s ease;
+backface-visibility: hidden;
+}
+.middle {
+transition: .5s ease;
+opacity: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+text-align: center;
+}
+.text {
+background-color: rgb(255, 0, 0);
+color: white;
+font-size: 16px;
+padding: 16px 32px;
+}
+
+.container:hover .image {
+opacity: 0.3;
+}
+
+.container:hover .middle {
+opacity: 1;
+}
+h1{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 1000;
+}
+.bg-text{
+  height: 300px;
+}
+
+/* Three columns side by side , Meet the team*/
+.column {
+float: left;
+width: 25%;
+margin-bottom: 16px;
+padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+.column {
+  width: 100%;
+  display: block;
+}
+}
+
+.CONTACT{
+font-size: 80px;
+line-height: 70px;
+font-weight: 900;
+text-transform: uppercase;
+background: url(https://images.pexels.com/photos/4275993/pexels-photo-4275993.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) 0 0 / cover no-repeat;
+color: #000000;
+font-family: 'Staatliches', cursive;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.locate{
+background-color: #000;
+}
+
+.contct-h1{
+color:#ff4343;
+font-size: 50px;
+font-family: 'Staatliches', cursive;
+font-weight: 100;
+}
+
+.contact-us{
+margin-left: 50px;
+}
+
+.contct-p{
+color: #ffffff;
+font-size: 20px;
+}
+}
+
+@media only screen and (min-width: 651px) and (max-width: 749px){
+  header{
+    background-color: rgb(0, 0, 0);
+    height: 120px;
+  }
+  
+  .img-name{
+    height: 0px;
+    width: 0px;
+  }
+
+  .img-logo{
+    margin-left: 10%;
+    height: 75px;
+    width: 75px;
+  }
+
+  .profile-burger {
+    background-color: #000000; /* Green */
+    border: none;
+    padding: 15px 32px;
+    fill: #ff0000;
+    margin-left: 20%;
+    size: 100px;
+    margin-top: 10px;
+}
+
+.profile {
+  visibility: hidden;
+}
+
+.ABOUTUS{
+  font-size: 150px;
+  line-height: 120px;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: url(https://images.pexels.com/photos/2771926/pexels-photo-2771926.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) 0 0 / cover no-repeat;
+  color: #000000;
+  -webkit-background-clip: text;
+  font-family: 'Staatliches', cursive;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.map{
+  width: 350px;
+  height: 350px;
+  align-self: center;
+}
+
+.whovr{
+background-color: #000000;
+}
+
+.whovr-content{
+padding-left: 20px;
+font-size: 20px;
+font-family: 'Saira', sans-serif;
+width: 75%;
+color: #ffffff;
+}
+
+.whovr-content-h1{
+font-size: 50px;
+font-family: 'Staatliches', cursive;
+color: #ff4343;
+}
+
+.neon-logo{
+  width: 250px;
+  height: 250px;
+}
+
+.MEET-DA-TEAM{
+font-size: 140px;
+line-height: 120px;
+font-weight: 900;
+text-transform: uppercase;
+background: url(https://images.pexels.com/photos/942801/pexels-photo-942801.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) 0 0 / cover no-repeat;
+color: #000000;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: 'Staatliches', cursive;
+}
+
+
+/* Add some shadows to create a card effect */
+.card {
+border: 1px solid white;
+background-color: rgb(10, 10, 10);
+color: white;
+font-family: 'Saira', sans-serif;
+}
+
+/* Some left and right padding inside the container */
+.container {
+padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+content: "";
+clear: both;
+display: table;
+}
+
+.title {
+color: rgb(255, 0, 0);
+font-weight: 800;
+font-family: 'Staatliches', cursive;
+}
+
+.button {
+border: none;
+border-radius: 10px;
+outline: 0;
+display: inline-block;
+padding: 8px;
+color: white;
+background-color: rgb(255, 0, 0);
+font-family: 'Staatliches', cursive;
+text-align: center;
+cursor: pointer;
+width: 100%;
+}
+
+.button:hover {
+background-color: rgb(255, 117, 117);
+}
+
+.row{
+background-color: #000;
+width: 100%;
+margin-left: 0px;
+font-size: 10px;
+}
+
+/*----------Hover Effects For meet the team---------*/
+.image {
+opacity: 1;
+display: block;
+width: 100%;
+height: auto;
+transition: .5s ease;
+backface-visibility: hidden;
+}
+.middle {
+transition: .5s ease;
+opacity: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+text-align: center;
+}
+.text {
+background-color: rgb(255, 0, 0);
+color: white;
+font-size: 16px;
+padding: 16px 32px;
+}
+
+.container:hover .image {
+opacity: 0.3;
+}
+
+.container:hover .middle {
+opacity: 1;
+}
+h1{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 1000;
+}
+
+.contact-h2{
+  font-size: 13px;
+}
+
+.bg-text{
+  height: 300px;
+}
+
+/* Three columns side by side , Meet the team*/
+.column {
+float: left;
+width: 25%;
+margin-bottom: 16px;
+padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+.column {
+  width: 100%;
+  display: block;
+}
+}
+
+.CONTACT{
+font-size: 120px;
+line-height: 100px;
+font-weight: 900;
+text-transform: uppercase;
+background: url(https://images.pexels.com/photos/4275993/pexels-photo-4275993.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) 0 0 / cover no-repeat;
+color: #000000;
+-webkit-background-clip: text;
+font-family: 'Staatliches', cursive;
+-webkit-text-fill-color: transparent;
+}
+
+.locate{
+background-color: #000;
+}
+
+.contct-h1{
+color:#ff4343 ;
+font-size: 50px;
+font-weight: 100;
+font-family: 'Staatliches', cursive;
+}
+
+.contact-us{
+margin-left: 50px;
+}
+
+.contct-p{
+color: #ffffff;
+font-family: 'Saira', sans-serif;
+font-size: 20px;
+}
+}
+
+@media only screen and (min-width: 750px) and (max-width: 1000px){
+  header{
+    background-color: rgb(0, 0, 0);
+    height: 120px;
+  }
+  
+  .img-name{
+    height: 75px;
+    width: 250px;
+  }
+
+  .img-logo{
+    margin-left: 10%;
+    height: 75px;
+    width: 75px;
+  }
+
+  .profile-burger{
+    display: none;
+    height: 0px;
+    width: 0px;
+  }
+
+.profile{
+  background-color: black; /* Green */
+  color: white;
+  padding: 15px 32px;
+  border: 2px solid #ffffff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 1000;
+  border-radius: 10px;
+  font-family: 'Saira', sans-serif;
+  transition: 0.3s;
+  margin-right: 10px;
+}
+
+.profile:hover{
+  background-color: #ffffff;
+  color: #000000;
+}
+
+
+.ABOUTUS{
+  font-size: 200px;
+  line-height: 120px;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: url(https://images.pexels.com/photos/2771926/pexels-photo-2771926.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) 0 0 / cover no-repeat;
+  color: #000000;
+  -webkit-background-clip: text;
+  font-family: 'Staatliches', cursive;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.map{
+  width: 600px;
+  height: 500px;
+  align-self: center;
+}
+
+.whovr{
+background-color: #000000;
+}
+
+.whovr-content{
+padding-left: 20px;
+font-size: 20px;
+font-family: 'Saira', sans-serif;
+width: 75%;
+color: #ffffff;
+}
+
+.whovr-content-h1{
+font-size: 90px;
+font-family: 'Staatliches', cursive;
+color: #ff4343;
+}
+
+.neon-logo{
+  width: 275px;
+  height: 275px;
+}
+
+.MEET-DA-TEAM{
+font-size: 170px;
+line-height: 150px;
+font-weight: 900;
+text-transform: uppercase;
+background: url(https://images.pexels.com/photos/942801/pexels-photo-942801.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) 0 0 / cover no-repeat;
+color: #000000;
+-webkit-background-clip: text;
+font-family: 'Staatliches', cursive;
+-webkit-text-fill-color: transparent;
+}
+
+
+/* Add some shadows to create a card effect */
+.card {
+border: 1px solid white;
+background-color: rgb(10, 10, 10);
+color: white;
+font-family: 'Saira', sans-serif;
+}
+
+/* Some left and right padding inside the container */
+.container {
+padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+content: "";
+clear: both;
+display: table;
+}
+
+.title {
+color: rgb(255, 0, 0);
+font-weight: 800;
+font-family: 'Staatliches', cursive;
+}
+
+.button {
+border: none;
+border-radius: 10px;
+outline: 0;
+display: inline-block;
+padding: 8px;
+color: white;
+background-color: rgb(255, 0, 0);
+text-align: center;
+cursor: pointer;
+width: 100%;
+font-family: 'Staatliches', cursive;
+}
+
+.button:hover {
+background-color: rgb(255, 117, 117);
+}
+
+.row{
+background-color: #000;
+width: 100%;
+margin-left: 0px;
+font-size: 10px;
+}
+
+/*----------Hover Effects For meet the team---------*/
+.image {
+opacity: 1;
+display: block;
+width: 100%;
+height: auto;
+transition: .5s ease;
+backface-visibility: hidden;
+}
+.middle {
+transition: .5s ease;
+opacity: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+text-align: center;
+}
+.text {
+background-color: rgb(255, 0, 0);
+color: white;
+font-size: 16px;
+padding: 16px 32px;
+}
+
+.container:hover .image {
+opacity: 0.3;
+}
+
+.container:hover .middle {
+opacity: 1;
+}
+h1{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 1000;
+}
+
+.contact-h2{
+  font-size: 15px;
+}
+
+.bg-text{
+  height: 300px;
+}
+
+/* Three columns side by side , Meet the team*/
+.column {
+float: left;
+width: 25%;
+margin-bottom: 16px;
+padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+.column {
+  width: 100%;
+  display: block;
+}
+}
+
+.CONTACT{
+font-size: 120px;
+line-height: 100px;
+font-weight: 900;
+text-transform: uppercase;
+background: url(https://images.pexels.com/photos/4275993/pexels-photo-4275993.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) 0 0 / cover no-repeat;
+color: #000000;
+-webkit-background-clip: text;
+font-family: 'Staatliches', cursive;
+-webkit-text-fill-color: transparent;
+}
+
+.locate{
+background-color: #000;
+}
+
+.contct-h1{
+color:#ff4343 ;
+font-size: 50px;
+font-weight: 100;
+font-family: 'Staatliches', cursive;
+}
+
+.contact-us{
+margin-left: 50px;
+}
+
+.contct-p{
+color: #ffffff;
+font-family: 'Saira', sans-serif;
+font-size: 20px;
+}
+
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1534px){
+  header{
+    background-color: rgb(0, 0, 0);
+    height: 120px;
+  }
+  
+  .img-name{
+    height: 75px;
+    width: 400px;
+  }
+
+  .img-logo{
+    margin-left: 10%;
+    height: 75px;
+    width: 75px;
+  }
+
+  .profile-burger{
+    display: none;
+    height: 0px;
+    width: 0px;
+  }
+
+  .profile{
+    background-color: black; /* Green */
+    color: white;
+    padding: 15px 32px;
+    border: 2px solid #ffffff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 1000;
+    border-radius: 10px;
+    font-family: 'Saira', sans-serif;
+    transition: 0.3s;
+    margin-right: 10px;
+  }
+
+.profile:hover{
+  background-color: #ffffff;
+  color: #000000;
+}
+
+
+.ABOUTUS{
+  font-size: 250px;
+  line-height: 120px;
+  text-transform: uppercase;
+  background: url(https://images.pexels.com/photos/2771926/pexels-photo-2771926.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) 0 0 / cover no-repeat;
+  color: #000000;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Staatliches', cursive;
+}
+
+.map{
+  width: 1200px;
+  height: 500px;
+  align-self: center;
+}
+
+.whovr{
+background-color: #000000;
+}
+
+.whovr-content{
+padding-left: 20px;
+font-size: 25px;
+font-family: 'Saira', sans-serif;
+width: 75%;
+color: #ffffff;
+}
+
+.whovr-content-h1{
+font-size: 80px;
+font-family: 'Staatliches', cursive;
+color: #ff4343;
+}
+
+.neon-logo{
+  width: 400px;
+  height: 400px;
+}
+
+.MEET-DA-TEAM{
+font-size: 250px;
+font-family: 'Staatliches', cursive;
+line-height: 200px;
+font-weight: 900;
+text-transform: uppercase;
+background: url(https://images.pexels.com/photos/942801/pexels-photo-942801.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) 0 0 / cover no-repeat;
+color: #000000;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+/* Add some shadows to create a card effect */
+.card {
+border: 1px solid white;
+background-color: rgb(10, 10, 10);
+font-family: 'Saira', sans-serif;
+font-size: 15px;
+color: white;
+}
+
+/* Some left and right padding inside the container */
+.container {
+padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+content: "";
+clear: both;
+display: table;
+}
+
+.title {
+color:#ff4343;
+font-weight: 800;
+font-size: 20px;
+font-family: 'Staatliches', cursive;
+}
+
+.button {
+border: none;
+border-radius: 10px;
+outline: 0;
+display: inline-block;
+padding: 8px;
+font-size: 20px;
+color: white;
+font-family: 'Staatliches', cursive;
+background-color:#ff4343;
+text-align: center;
+cursor: pointer;
+width: 100%;
+}
+
+.button:hover {
+background-color: rgb(255, 117, 117);
+}
+
+.row{
+background-color: #000;
+width: 100%;
+margin-left: 0px;
+font-size: 10px;
+}
+
+/*----------Hover Effects For meet the team---------*/
+.image {
+opacity: 1;
+display: block;
+width: 100%;
+height: auto;
+transition: .5s ease;
+backface-visibility: hidden;
+}
+.middle {
+transition: .5s ease;
+opacity: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+text-align: center;
+}
+.text {
+background-color:#ff4343;
+color: #ffffff;
+font-family: 'Saira', sans-serif;
+font-size: 16px;
+padding: 16px 32px;
+}
+
+.container:hover .image {
+opacity: 0.3;
+}
+
+.container:hover .middle {
+opacity: 1;
+}
+h1{
+  font-family: 'Staatliches', cursive;
+  font-weight: 1000;
+}
+
+.contact-h2{
+  font-size: 20px;
+  font-family: 'Saira', sans-serif;
+}
+
+.bg-text{
+  height: 300px;
+}
+
+/* Three columns side by side , Meet the team*/
+.column {
+float: left;
+width: 25%;
+margin-bottom: 16px;
+padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+.column {
+  width: 100%;
+  display: block;
+}
+}
+
+.CONTACT{
+font-size: 250px;
+line-height: 220px;
+font-weight: 900;
+text-transform: uppercase;
+font-family: 'Staatliches', cursive;
+background: url(https://images.pexels.com/photos/4275993/pexels-photo-4275993.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) 0 0 / cover no-repeat;
+color: #000000;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.locate{
+background-color: #000;
+}
+
+.contct-h1{
+color:#ff4343 ;
+font-size: 70px;
+font-weight: 100;
+font-family: 'Staatliches', cursive;
+}
+
+.contact-us{
+margin-left: 50px;
+font-family: 'Saira', sans-serif;
+}
+
+.contct-p{
+color: #ffffff;
+font-size: 30px;
+}
+
+/* for footer */
+.footer-row{
+display: flex;
+flex-wrap: wrap;
+}
+.footer-list{
+list-style: none;  /*removes dots in fornt of lists */
+}
+.footer-container{
+max-width: 1200px;
+margin: auto;
+color: rgb(236, 234, 233);
+}
+.footer{
+padding: 80px;
+background-color: rgb(49, 49, 49);
+}
+*{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+.footer-col{
+width: 25%;   
+padding: 0 15px;
+}
+.footer-col ul li a{
+font-size: 16px;
+text-transform: capitalize;
+color: white;
+}
+
+.a-links{
+color: #ff0000;
+}
+
+.a-links:hover{
+color: rgb(255, 51, 51);
+}
+}
+
+@media only screen and (min-width: 1535px) and (max-width: 2000px){
+  header{
+    background-color: rgb(0, 0, 0);
+    height: 120px;
+  }
+  
+  .img-name{
+    height: 75px;
+    width: 250px;
+  }
+
+  .img-logo{
+    margin-left: 10%;
+    height: 75px;
+    width: 75px;
+  }
+
+  .profile-burger{
+    display: none;
+    height: 0px;
+    width: 0px;
+  }
+
+.profile{
+  background-color: black; /* Green */
+  color: white;
+  padding: 15px 32px;
+  border: 2px solid #ffffff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 1000;
+  border-radius: 10px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  transition: 0.3s;
+  margin-right: 10px;
+}
+
+.profile:hover{
+  background-color: #ffffff;
+  color: #000000;
+}
+
+
+.ABOUTUS{
+  font-size: 250px;
+  line-height: 120px;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: url(https://images.pexels.com/photos/2771926/pexels-photo-2771926.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) 0 0 / cover no-repeat;
+  color: #000000;
+  -webkit-background-clip: text;
+  font-family: 'Staatliches', cursive;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.map{
+  width: 900px;
+  height: 700px;
+  align-self: center;
+}
+
+.whovr{
+background-color: #000000;
+}
+
+.whovr-content{
+padding-left: 20px;
+font-size: 30px;
+width: 75%;
+color: #ffffff;
+}
+
+.whovr-content-h1{
+font-size: 100px;
+}
+
+.neon-logo{
+  width: 500px;
+  height: 500px;
+}
+
+.MEET-DA-TEAM{
+font-size: 200px;
+line-height: 150px;
+font-weight: 900;
+text-transform: uppercase;
+background: url(https://images.pexels.com/photos/942801/pexels-photo-942801.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) 0 0 / cover no-repeat;
+color: #000000;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+/* Add some shadows to create a card effect */
+.card {
+border: 1px solid white;
+background-color: rgb(10, 10, 10);
+color: white;
+}
+
+/* Some left and right padding inside the container */
+.container {
+padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+content: "";
+clear: both;
+display: table;
+}
+
+.title {
+color: rgb(255, 0, 0);
+font-weight: 800;
+font-size: large;
+}
+
+.button {
+border: none;
+border-radius: 10px;
+outline: 0;
+display: inline-block;
+padding: 8px;
+color: white;
+background-color: rgb(255, 0, 0);
+text-align: center;
+cursor: pointer;
+width: 100%;
+}
+
+.button:hover {
+background-color: rgb(255, 117, 117);
+}
+
+.row{
+background-color: #000;
+width: 100%;
+margin-left: 0px;
+font-size: 10px;
+}
+
+/*----------Hover Effects For meet the team---------*/
+.image {
+opacity: 1;
+display: block;
+width: 100%;
+height: auto;
+transition: .5s ease;
+backface-visibility: hidden;
+}
+.middle {
+transition: .5s ease;
+opacity: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+text-align: center;
+}
+.text {
+background-color: rgb(255, 0, 0);
+color: white;
+font-size: 16px;
+padding: 16px 32px;
+}
+
+.container:hover .image {
+opacity: 0.3;
+}
+
+.container:hover .middle {
+opacity: 1;
+}
+h1{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 1000;
+}
+
+.contact-h2{
+  font-size: 40px;
+}
+
+.bg-text{
+  height: 300px;
+}
+
+/* Three columns side by side , Meet the team*/
+.column {
+float: left;
+width: 25%;
+margin-bottom: 16px;
+padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+.column {
+  width: 100%;
+  display: block;
+}
+}
+
+.CONTACT{
+font-size: 200px;
+line-height: 120px;
+font-weight: 900;
+text-transform: uppercase;
+background: url(https://images.pexels.com/photos/4275993/pexels-photo-4275993.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) 0 0 / cover no-repeat;
+color: #000000;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.locate{
+background-color: #000;
+}
+
+.contct-h1{
+color: #ffffff;
+font-size: 100px;
+font-weight: 100;
+}
+
+.contact-us{
+margin-left: 50px;
+}
+
+.contct-p{
+color: #ffffff;
+font-size: 50px;
+}
+
+/* for footer */
+.footer-row{
+display: flex;
+flex-wrap: wrap;
+}
+.footer-list{
+list-style: none;  /*removes dots in fornt of lists */
+}
+.footer-container{
+max-width: 1200px;
+margin: auto;
+color: rgb(236, 234, 233);
+}
+.footer{
+padding: 80px;
+background-color: rgb(49, 49, 49);
+}
+*{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+.footer-col{
+width: 25%;   
+padding: 0 15px;
+}
+.footer-col ul li a{
+font-size: 16px;
+text-transform: capitalize;
+color: white;
+}
+
+.a-links{
+color: #ff0000;
+}
+
+.a-links:hover{
+color: rgb(255, 51, 51);
+}
+}
+
+/* HEADER */
+header{
+    background-color: black;
+}
+
+/* CURTAIN MENU*/
+/* The Overlay (background) */
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.9); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.6s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+  }
+  
+  /* Position the content inside the overlay */
+  .overlay-content {
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  }
+  
+  /* The navigation links inside the overlay */
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #ffffff;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .overlay a:hover, .overlay a:focus {
+    color: #ff0000;
+  }
+  
+  /* Position the close button (top right corner) */
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+}
+  .MAIN-BG{
+    background-color: #000000;
+}

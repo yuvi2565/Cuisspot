@@ -1,0 +1,132 @@
+header{
+    background-color: rgb(107, 90, 90);
+    height: 120px;
+  }
+  
+  .img-name{
+    height: 75px;
+    width: 400px;
+  }
+
+  .img-logo{
+    margin-left: 10%;
+    height: 75px;
+    width: 75px;
+  }
+
+  .profile-burger{
+    display: none;
+    height: 0px;
+    width: 0px;
+  }
+
+.profile{
+  background-color: black; /* Green */
+  color: white;
+  padding: 15px 32px;
+  border: 2px solid #ffffff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 1000;
+  border-radius: 10px;
+  font-family: 'Saira', sans-serif;
+  transition: 0.3s;
+  margin-right: 10px;
+}
+
+.profile:hover{
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.content{
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("https://images.pexels.com/photos/1907227/pexels-photo-1907227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+    width: 100%;
+    height: 50%;
+    color: #ffffff;
+    align-self: center;
+    margin: 0%;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.cuiss_recipie_h1{
+    font-size: 130px;
+    font-family: 'Staatliches', cursive;
+}
+
+/* HEADER  : DELETE THIS BEFORE TESTING*/
+header{
+    background-color: rgb(0, 0, 0);
+}
+/* CURTAIN MENU*/
+/* The Overlay (background) */
+.overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+  height: 100%;
+  width: 0;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/opacity */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.6s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+  position: relative;
+  top: 25%; /* 25% from the top */
+  width: 100%; /* 100% width */
+  text-align: center; /* Centered text/links */
+  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  font-family: 'Saira', sans-serif;
+  color: #ffffff;
+  display: block; /* Display block instead of inline */
+  transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+  color: #ff0000;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + header {
+  padding-top: 60px;
+}
